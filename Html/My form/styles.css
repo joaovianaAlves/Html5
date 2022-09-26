@@ -1,0 +1,55 @@
+body{
+    background-color:#b2b2b2;
+    padding: 30px;
+    color: #f5f6f7;
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+  .container{
+     background-color: #cccccc;
+     border-radius: 10px;
+  }
+  form{
+    padding: 1rem;
+  }
+  .text{
+    text-align: center;
+  }
+  .description-text{
+    text-align: center;
+  }
+  label {
+    display: flex;
+    margin: 0.5rem;
+  }
+  .Pform{
+    margin: 10px auto 20px;
+    width: 100%;
+    min-height: 2.3em;
+    padding: 0 0.5rem;
+    border-radius: 6px;
+    border: none;
+    display: block;
+  }
+  .input-radio,.input-checkboxes{
+    margin-right: 0.4rem;
+    min-height: 1rem;
+    min-width: 1rem;
+  }
+  .input-text{
+    min-height: 100px;
+    width: 100%;
+    padding: 0.7rem;
+    resize: vertical;
+    border:none;
+    border-radius: 6px;
+  }
+  .submit-button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color:rgb(163, 153, 153);
+    border: none;
+    border-radius: 6px;
+    margin: 1.5rem auto;
+    cursor: pointer;
+  }
